@@ -1,5 +1,6 @@
 const http = require('http');
 const fs = require('fs');
+const read = require('readline');
 
 const hostname = "127.0.0.1";
 const port = 3000;
@@ -17,10 +18,22 @@ fs.appendFile('teste.txt',"\nOutro Conteúdo!",(err)=>{
     if (err) throw err;
     console.log('Nova linha salva com sucesso!');
 })
-
+//lê arquivo
 fs.readFile('teste.txt',(err,data)=>{
     if(err) throw err;
-    console.log(data.toString());
+    let str = data.toString();
+    let newStr = str.substr(0,10);
+    console.log(newStr);
+})
+// Deletar arquivo
+fs.unlink('teste.txt',(err)=>{
+    if(err) throw err;
+    console.log('Arquivo excluido com sucesso!');
+})
+// // Renomer arquivo
+fs.rename('teste.txt','NewTeste.txt',(err)=>{
+    if(err) throw err;
+    console.log("Renomeado com sucesso!");
 })
 
 const server = http.createServer((req,res)=>{
