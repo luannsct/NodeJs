@@ -4,7 +4,7 @@ Projeto de Node Js usando Rotas
 
 ![Counter](https://komarev.com/ghpvc/?username=luannsct&color=grey&label=Visitas)
 
-###Example
+## Uso/Exemplos
 
 ```
 const bodyParser = require('body-parser');
