@@ -7,4 +7,4 @@ Projeto de Node Js usando Rotas
   
    [![HitCount](https://hits.dwyl.com/luannsct/https://githubcom/luannsct/NodeJs.svg?style=flat-square&show=unique)](http://hits.dwyl.com/luannsct/https://githubcom/luannsct/NodeJs)
    
-     [![HitCount](https://hits.dwyl.com/luannsct/https://avatarsgithubusercontentcom/u/34097627s=400&u=81f4d4ac015aa07968b9e09d707339820c4c6a1d&v=.svg?style=flat-square)](http://hits.dwyl.com/luannsct/https://avatarsgithubusercontentcom/u/34097627s=400&u=81f4d4ac015aa07968b9e09d707339820c4c6a1d&v=)
+   [![HitCount](https://avatarsgithubusercontentcom/u/34097627s=400&u=81f4d4ac015aa07968b9e09d707339820c4c6a1d&v=.svg?style=flat-square)](http://hits.dwyl.com/luannsct/https://avatarsgithubusercontentcom/u/34097627s=400&u=81f4d4ac015aa07968b9e09d707339820c4c6a1d&v=)
